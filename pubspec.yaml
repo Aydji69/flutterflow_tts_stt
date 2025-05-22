@@ -1,5 +1,15 @@
+name: flutterflow_tts_stt
+description: A new FlutterFlow project with TTS and STT integration.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
   flutter_tts: ^4.2.2
   speech_to_text: ^7.0.0
+
+flutter:
+  uses-material-design: true
